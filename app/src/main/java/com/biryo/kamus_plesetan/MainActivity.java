@@ -49,12 +49,8 @@ public class MainActivity extends AppCompatActivity {
     Spinner spinner;
     String fitur;
     //ini banner
-    String ADUNIT_ID = "ca-app-pub-6929212370466200/8558859131";
-//    banner real ca-app-pub-6929212370466200/8558859131
-//    inter real ca-app-pub-6929212370466200/4736638973
-
-//     inter test ca-app-pub-3940256099942544/1033173712
-    // banner test ca-app-pub-3940256099942544/6300978111
+    String ADUNIT_ID = "ca-app-pub-3940256099942544/6300978111";
+    
     FrameLayout adcontainer;
     AdView adView;
     private InterstitialAd mInterstitialAd;
@@ -77,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         mInterstitialAd = new InterstitialAd(this);
         //ini inter
-        mInterstitialAd.setAdUnitId("ca-app-pub-6929212370466200/4736638973");
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         adcontainer = findViewById(R.id.adviewContainer);
