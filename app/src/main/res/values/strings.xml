@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kamus Plesetan</string>
+    <string name="kamus_plesetan">Kamus Plesetan</string>
+    <string-array name="bhsInput">
+        <item>Indonesia</item>
+    </string-array>
+
+    <string-array name="bhsOutput">
+        <item>Indonesia</item>
+    </string-array>
+
+    <string-array name="fitur">
+        <item>Ucapan</item>
+        <item>Akronim</item>
+        <item>Makna</item>
+    </string-array>
+
+    <style name="fiturs" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+</resources>
